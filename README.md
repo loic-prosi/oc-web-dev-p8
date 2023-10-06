@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# oc-web-dev-p8
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Developer portfolio displaying my various projects.
 
 ## Available Scripts
 
