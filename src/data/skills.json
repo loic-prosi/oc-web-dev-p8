@@ -1,0 +1,16 @@
+[
+  { "id": "html", "name": "HTML", "category": "front-end" },
+  { "id": "css", "name": "CSS", "category": "front-end" },
+  { "id": "sass", "name": "Sass", "category": "front-end" },
+  { "id": "javascript", "name": "Javascript" },
+  { "id": "react", "name": "React", "category": "front-end" },
+  { "id": "react-router", "name": "React router", "category": "front-end" },
+  { "id": "nodejs", "name": "Node.js", "category": "back-end" },
+  { "id": "express", "name": "Express", "category": "back-end" },
+  { "id": "mongoose", "name": "Mongoose", "category": "back-end" },
+  { "id": "mongodb", "name": "MongoDB", "category": "back-end" },
+  { "id": "openapi", "name": "OpenAPI", "category": "back-end" },
+  { "id": "jest", "name": "Jest" },
+  { "id": "seo", "name": "seo", "category": "seo" },
+  { "id": "scrum", "name": "scrum", "category": "Gestion de projet" }
+]
