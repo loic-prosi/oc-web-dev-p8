@@ -1,0 +1,30 @@
+.navbar
+  display: flex
+  align-items: center
+  padding: 30px 50px
+  &__title
+    margin: 0
+    font-size: 20px
+    font-weight: bold
+    line-height: 18px
+    transform: translateY(4px)
+  &__title-link
+    display: flex
+    align-items: center
+    gap: 5px
+    text-decoration: none
+    color: $secondary-color
+  &__links
+    display: flex
+    gap: 20px
+    list-style: none
+    margin-left: 10px
+  &__link
+    text-decoration: none
+    font-size: 18px
+    color: $secondary-color
+    &:hover
+      transition: color 350ms cubic-bezier(.165,.84,.44,1)
+      color: $selected-color
+    &--active
+      color: $selected-color
