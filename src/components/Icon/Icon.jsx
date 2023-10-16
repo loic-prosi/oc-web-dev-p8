@@ -10,6 +10,7 @@ const Icon = ({ name, size }) => {
   if (iconLibrary === "fa") {
     return (
       <svg
+        className="icon"
         xmlns="http://www.w3.org/2000/svg"
         width={width}
         viewBox="0 0 496 512"
@@ -26,7 +27,9 @@ const Icon = ({ name, size }) => {
   }
   return (
     <svg
+      className="icon"
       xmlns="http://www.w3.org/2000/svg"
+      width={width}
       viewBox="0 0 125 125"
       fill="currentColor"
     >
