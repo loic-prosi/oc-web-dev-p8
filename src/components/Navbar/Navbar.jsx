@@ -5,7 +5,12 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <Link className="navbar__title-link" to="/">
-        <Icon className="navbar__logo" name="logo" />
+        <Icon
+          className="navbar__logo"
+          name="logo"
+          size="45px"
+          alt="Loïc Prosi"
+        />
         <h1 className="navbar__title">Loïc Prosi</h1>
       </Link>
       <ul className="navbar__links">
