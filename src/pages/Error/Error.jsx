@@ -4,6 +4,11 @@ import Footer from "../../components/Footer";
 
 const Error = () => {
   const error = useRouteError();
+  const errorMessage =
+    error.status && error.status === 404
+      ? "Cette page n'existe pas."
+      : "Une erreur est survenue.";
+
   return (
     <div className="layout">
       <div className="layout__container">
@@ -15,7 +20,7 @@ const Error = () => {
             </h2>
           </div>
           <div className="error__message-container">
-            <p className="error__message">Oups ! Une erreur est survenue.</p>
+            <p className="error__message">Oups ! {errorMessage}</p>
             <p className="error__infos">
               Vous pouvez retourner sur la page d'accueil en cliquant sur le
               bouton ci-dessous.
