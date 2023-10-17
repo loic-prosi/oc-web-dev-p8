@@ -14,8 +14,7 @@ const routesConfig = (works, skills) => {
       children: [
         {
           index: true,
-          element: <Home />,
-          loader: () => consolidateWorks(works, skills)
+          element: <Home />
         },
         {
           path: "/projects",

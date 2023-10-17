@@ -1,10 +1,6 @@
-import { useLoaderData } from "react-router-dom";
-
 import Icon from "../../components/Icon";
-import Card from "../../components/Card";
 
 const Home = () => {
-  const { works } = useLoaderData();
   return (
     <main className="home">
       <section className="introduction">
@@ -41,23 +37,10 @@ const Home = () => {
           </nav>
         </article>
       </section>
-      <section className="projects">
-        <div className="projects__heading">
-          <h2 className="projects__title">Mes projets</h2>
-          <div className="projects__title-separator"></div>
-        </div>
-        <div className="projects__list">
-          {works &&
-            works.map((work) => (
-              <Card
-                key={work.id}
-                work={work}
-                image={work.image}
-                categories={work.categories}
-              />
-            ))}
-        </div>
-      </section>
+      <div className="greetings">
+        <span className="greetings__title">Bienvenue</span>
+        <div className="greetings__separator"></div>
+      </div>
     </main>
   );
 };
