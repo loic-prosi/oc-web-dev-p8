@@ -1,9 +1,9 @@
 .home
-  padding: 250px 100px 0 100px
+  padding: 250px 50px 0 50px
   @media (max-width: 992px)
     padding: 150px 30px 0 30px
   @media (max-width: 576px)
-    padding: 120px 15px 0 15px
+    padding: 120px 0
 
 .introduction
   display: flex
@@ -12,6 +12,7 @@
     margin-bottom: 20px
   @media (max-width: 576px)
     margin-bottom: 10px
+    padding: 0 15px
   &__left-container
     display: flex
     justify-content: center
@@ -66,14 +67,32 @@
   &__title
     padding: 0 15px
     background-color: $primary-color
-    font-size: 20px
-    font-weight: normal
+    font-size: 25px
+    font-weight: 100
     color: $secondary-color-darken-25
     z-index: 1
     @media (max-width: 992px)
+      font-size: 22px
+    @media (max-width: 576px)
       font-size: 18px
   &__title-separator
     position: absolute
-    width: 100%
+    width: 50%
     height: 1px
     background-color: $secondary-color-darken-75
+    @media (max-width: 992px)
+      width: 90%
+    @media (max-width: 576px)
+      width: 100%
+  &__list
+    display: flex
+    flex-wrap: wrap
+    gap: 40px
+    padding: 50px 0px 100px 0px
+    border-radius: 25px
+    @media (max-width: 992px)
+      gap: 30px
+      padding: 30px 0px
+    @media (max-width: 576px)
+      gap: 20px
+      padding: 20px 0px
