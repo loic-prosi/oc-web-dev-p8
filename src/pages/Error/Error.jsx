@@ -23,9 +23,9 @@ const Error = () => {
             <p className="error__message">Oups ! {errorMessage}</p>
             <p className="error__infos">
               Vous pouvez retourner sur la page d'accueil en cliquant sur le
-              bouton ci-dessous.
+              lien ci-dessous.
             </p>
-            <Link className="error__home-button" to="/">
+            <Link className="error__home-link" to="/">
               Retour sur la page d'accueil
             </Link>
           </div>
