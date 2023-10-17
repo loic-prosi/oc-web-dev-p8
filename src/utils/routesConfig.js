@@ -2,6 +2,8 @@ import Layout from "../pages/Layout";
 import Home from "../pages/Home";
 import Error from "../pages/Error";
 
+import { consolidateWorks } from "./works";
+
 const routesConfig = (works, skills) => {
   return [
     {
@@ -11,7 +13,11 @@ const routesConfig = (works, skills) => {
       children: [
         {
           index: true,
-          element: <Home />
+          element: <Home />,
+          loader: async () => {
+            const worksConsolidated = consolidateWorks(works, skills);
+            return { works: worksConsolidated };
+          }
         }
       ]
     }
