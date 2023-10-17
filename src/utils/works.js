@@ -15,6 +15,16 @@ const images = {
 };
 
 export const consolidateWorks = (works, skills) => {
+  const alreadyConsolidated =
+    works[0] &&
+    works[0].skills &&
+    works[0].skills[0] &&
+    works[0].skills[0].name;
+
+  if (alreadyConsolidated) {
+    return { works };
+  }
+
   let worksConsolidated = works;
 
   for (let work of works) {
@@ -37,5 +47,5 @@ export const consolidateWorks = (works, skills) => {
     work.image = images[work.id];
   }
 
-  return worksConsolidated;
+  return { works: worksConsolidated };
 };

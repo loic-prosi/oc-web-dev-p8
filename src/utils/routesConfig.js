@@ -1,5 +1,6 @@
 import Layout from "../pages/Layout";
 import Home from "../pages/Home";
+import Projects from "../pages/Projects";
 import Error from "../pages/Error";
 
 import { consolidateWorks } from "./works";
@@ -14,10 +15,12 @@ const routesConfig = (works, skills) => {
         {
           index: true,
           element: <Home />,
-          loader: async () => {
-            const worksConsolidated = consolidateWorks(works, skills);
-            return { works: worksConsolidated };
-          }
+          loader: () => consolidateWorks(works, skills)
+        },
+        {
+          path: "/projects",
+          element: <Projects />,
+          loader: () => consolidateWorks(works, skills)
         }
       ]
     }
