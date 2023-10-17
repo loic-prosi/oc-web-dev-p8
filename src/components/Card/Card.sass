@@ -10,6 +10,9 @@
   cursor: pointer
   transition: all 750ms cubic-bezier(.165,.84,.44,1)
   filter: grayscale(50%)
+  overflow: hidden
+  &:hover &__image
+    transform: scale(1.05)
   &:hover
     filter: none
   @media (max-width: 992px)
@@ -36,6 +39,7 @@
     height: 100%
     object-fit: cover
     border-radius: 20px
+    transition: all 5s cubic-bezier(.165,.84,.44,1)
     @media (max-width: 576px)
       border-radius: 0
   &__image-placeholder
