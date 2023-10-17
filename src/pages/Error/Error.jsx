@@ -4,7 +4,6 @@ import Footer from "../../components/Footer";
 
 const Error = () => {
   const error = useRouteError();
-  console.log("error: ", error);
   return (
     <div className="layout">
       <div className="layout__container">
