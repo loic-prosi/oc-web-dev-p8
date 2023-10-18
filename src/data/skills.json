@@ -11,6 +11,6 @@
   { "id": "mongodb", "name": "MongoDB", "category": "Back-end" },
   { "id": "openapi", "name": "OpenAPI", "category": "Back-end" },
   { "id": "jest", "name": "Jest" },
-  { "id": "seo", "name": "seo", "category": "Seo" },
-  { "id": "scrum", "name": "scrum", "category": "Gestion de projet" }
+  { "id": "seo", "name": "Seo", "category": "Seo" },
+  { "id": "scrum", "name": "Scrum", "category": "Gestion de projet" }
 ]
