@@ -2,30 +2,35 @@
   {
     "id": "oc-web-dev-p2",
     "name": "Booki",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque omnis voluptatum velit. Delectus sapiente laboriosam rem laborum repellat tenetur quo, incidunt cum. Fugiat veniam atque aperiam ad corporis cumque et.\n\nLorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore molestiae quas ad consectetur iusto adipisci saepe sapiente sequi, tempora quasi ullam corporis quidem minima at architecto. Facilis, eaque. Maiores, saepe.",
     "skills": ["html", "css"],
     "year": 2023
   },
   {
     "id": "oc-web-dev-p3",
     "name": "Portfolio d'architecte",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque omnis voluptatum velit. Delectus sapiente laboriosam rem laborum repellat tenetur quo, incidunt cum. Fugiat veniam atque aperiam ad corporis cumque et.\n\nLorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore molestiae quas ad consectetur iusto adipisci saepe sapiente sequi, tempora quasi ullam corporis quidem minima at architecto. Facilis, eaque. Maiores, saepe.",
     "skills": ["html", "css", "javascript"],
     "year": 2023
   },
   {
     "id": "oc-web-dev-p4",
     "name": "Menu Maker",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque omnis voluptatum velit. Delectus sapiente laboriosam rem laborum repellat tenetur quo, incidunt cum. Fugiat veniam atque aperiam ad corporis cumque et.\n\nLorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore molestiae quas ad consectetur iusto adipisci saepe sapiente sequi, tempora quasi ullam corporis quidem minima at architecto. Facilis, eaque. Maiores, saepe.",
     "skills": ["scrum"],
     "year": 2023
   },
   {
     "id": "oc-web-dev-p5",
     "name": "Optimisation d'un site web",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque omnis voluptatum velit. Delectus sapiente laboriosam rem laborum repellat tenetur quo, incidunt cum. Fugiat veniam atque aperiam ad corporis cumque et.\n\nLorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore molestiae quas ad consectetur iusto adipisci saepe sapiente sequi, tempora quasi ullam corporis quidem minima at architecto. Facilis, eaque. Maiores, saepe.",
     "skills": ["seo"],
     "year": 2023
   },
   {
     "id": "oc-web-dev-p6",
     "name": "Kasa",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque omnis voluptatum velit. Delectus sapiente laboriosam rem laborum repellat tenetur quo, incidunt cum. Fugiat veniam atque aperiam ad corporis cumque et.\n\nLorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore molestiae quas ad consectetur iusto adipisci saepe sapiente sequi, tempora quasi ullam corporis quidem minima at architecto. Facilis, eaque. Maiores, saepe.",
     "skills": [
       "html",
       "css",
@@ -40,6 +45,7 @@
   {
     "id": "oc-web-dev-p7",
     "name": "Mon vieux grimoire",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque omnis voluptatum velit. Delectus sapiente laboriosam rem laborum repellat tenetur quo, incidunt cum. Fugiat veniam atque aperiam ad corporis cumque et.\n\nLorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore molestiae quas ad consectetur iusto adipisci saepe sapiente sequi, tempora quasi ullam corporis quidem minima at architecto. Facilis, eaque. Maiores, saepe.",
     "skills": [
       "javascript",
       "nodejs",
