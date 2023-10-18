@@ -19,8 +19,10 @@ const Projects = () => {
           works.map((work) => (
             <Card
               key={work.id}
-              work={work}
+              id={work.id}
               image={work.image}
+              name={work.name}
+              year={work.year}
               categories={work.categories}
             />
           ))}
