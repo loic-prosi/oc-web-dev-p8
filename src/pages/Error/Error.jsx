@@ -1,6 +1,8 @@
-import { useRouteError, Link } from "react-router-dom";
+import { useRouteError } from "react-router-dom";
+
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
+import Article from "../../components/Article";
 
 const Error = () => {
   const error = useRouteError();
@@ -19,16 +21,14 @@ const Error = () => {
               {error.status ? error.status : "???"}
             </h2>
           </div>
-          <div className="error__message-container">
-            <p className="error__message">Oups ! {errorMessage}</p>
-            <p className="error__infos">
-              Vous pouvez retourner sur la page d'accueil en cliquant sur le
-              lien ci-dessous.
-            </p>
-            <Link className="error__home-link" to="/">
-              Retour sur la page d'accueil
-            </Link>
-          </div>
+          <Article
+            title={`Oups ! ${errorMessage}`}
+            text="Vous pouvez retourner sur la page d'accueil en cliquant sur le
+              lien ci-dessous."
+            links={[
+              { size: "large", name: "Retour sur la page d'accueil", url: "/" }
+            ]}
+          />
         </main>
       </div>
       <Footer />

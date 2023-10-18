@@ -1,19 +1,18 @@
 import { useLoaderData } from "react-router-dom";
 
+import Article from "../../components/Article";
 import Card from "../../components/Card";
 
 const Projects = () => {
   const { works } = useLoaderData();
   return (
     <main className="projects">
-      <article className="projects__introduction">
-        <h2 className="projects__title">Mes projets</h2>
-        <p className="projects__text">
-          Vous trouverez ci-dessous la liste de mes projets front-end et
+      <Article
+        title="Mes projets"
+        text="Vous trouverez ci-dessous la liste de mes projets front-end et
           back-end. Ces différents travaux m'ont permis d'améliorer mes
-          compétences.
-        </p>
-      </article>
+          compétences."
+      />
       <div className="projects__list">
         {works &&
           works.map((work) => (

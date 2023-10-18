@@ -8,7 +8,18 @@
     padding: 150px 30px 0 30px
   @media (max-width: 576px)
     gap: 20px
-    padding: 100px 15px 0 15px
+    padding: 100px 0 0 0
+  .article
+    &__title
+      font-size: 60px
+      @media (max-width: 992px)
+        font-size: 50px
+      @media (max-width: 576px)
+        font-size: 40px
+    &__text
+      width: 75%
+      @media (max-width: 576px)
+        width: 100%
   &__code-container
     display: flex
     justify-content: center
