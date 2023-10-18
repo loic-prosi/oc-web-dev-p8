@@ -12,7 +12,7 @@ const Project = () => {
   };
 
   return (
-    <main className="projects-page">
+    <main className="project-page">
       <section className="project">
         <article className="project__introduction">
           <header className="project__heading">
