@@ -9,17 +9,11 @@ const About = () => {
       <section className="section">
         <Article
           title="Loïc Prosi"
-          text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum
-            veniam enim iusto quia eveniet vel culpa vitae tempore praesentium
-            magni, veritatis ratione aut iure autem libero neque quis rerum
-            officia.
+          text={`Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum veniam enim iusto quia eveniet vel culpa vitae tempore praesentium magni, veritatis ratione aut iure autem libero neque quis rerum officia. 
+          
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum veniam enim iusto quia eveniet vel culpa vitae tempore praesentium magni, veritatis ratione aut iure autem libero neque quis rerum officia.
 
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum
-            veniam enim iusto quia eveniet vel culpa vitae tempore praesentium
-            magni, veritatis ratione aut iure autem libero neque quis rerum
-            officia.
-
-            Cliquez sur le lien ci-dessous pour télécharger mon CV."
+          Cliquez sur le lien ci-dessous pour télécharger mon CV.`}
           links={[
             {
               size: "large",
