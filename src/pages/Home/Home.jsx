@@ -1,5 +1,6 @@
 import Article from "../../components/Article";
 import SideContent from "../../components/SideContent";
+import Separator from "../../components/Separator";
 
 const Home = () => {
   return (
@@ -26,10 +27,7 @@ const Home = () => {
           ]}
         />
       </section>
-      <div className="greetings">
-        <span className="greetings__title">Bienvenue</span>
-        <div className="greetings__separator"></div>
-      </div>
+      <Separator text="Bienvenue" />
     </main>
   );
 };
