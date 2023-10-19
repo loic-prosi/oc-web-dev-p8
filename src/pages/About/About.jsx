@@ -1,5 +1,5 @@
 import Article from "../../components/Article";
-import Figure from "../../components/Figure";
+import SideContent from "../../components/SideContent";
 
 import cv from "../../assets/cv.pdf";
 
@@ -29,7 +29,7 @@ const About = () => {
             }
           ]}
         />
-        <Figure name="logo" size="50%" />
+        <SideContent icon="logo" size="50%" />
       </section>
     </main>
   );

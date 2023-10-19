@@ -3,9 +3,12 @@ import { useRouteError } from "react-router-dom";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import Article from "../../components/Article";
+import SideContent from "../../components/SideContent";
 
 const Error = () => {
   const error = useRouteError();
+
+  const errorStatus = error.status ? error.status : "???";
   const errorMessage =
     error.status && error.status === 404
       ? "Cette page n'existe pas."
@@ -17,11 +20,7 @@ const Error = () => {
         <Navbar />
         <main className="page page--error">
           <section className="section section--error">
-            <div className="error__code-container">
-              <span className="error__code">
-                {error.status ? error.status : "???"}
-              </span>
-            </div>
+            <SideContent text={errorStatus} />
             <Article
               title={`Oups ! ${errorMessage}`}
               text="Vous pouvez retourner sur la page d'accueil en cliquant sur le

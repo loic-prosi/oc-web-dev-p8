@@ -13,6 +13,16 @@ body
   font-family: 'Work Sans', sans-serif
   color: $secondary-color
 
+.layout
+  display: flex
+  flex-direction: column
+  min-height: 100vh
+  margin: 0
+  &__container
+    @media (min-width: 1440px)
+      width: 1440px
+      margin: 0 auto
+
 .page
   padding: 175px 50px 0 50px
   @media (max-width: 992px)
@@ -26,7 +36,6 @@ body
   @media (max-width: 992px)
     flex-direction: column
 
-@import "./pages/Layout/Layout.sass"
 @import "./pages/Home/Home.sass"
 @import "./pages/Projects/Projects.sass"
 @import "./pages/Error/Error.sass"
@@ -34,5 +43,5 @@ body
 @import "./components/Navbar/Navbar.sass"
 @import "./components/Footer/Footer.sass"
 @import "./components/Article/Article.sass"
-@import "./components/Figure/Figure.sass"
+@import "./components/SideContent/SideContent.sass"
 @import "./components/Card/Card.sass"
