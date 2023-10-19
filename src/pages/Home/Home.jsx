@@ -1,13 +1,11 @@
 import Article from "../../components/Article";
-import Icon from "../../components/Icon";
+import Figure from "../../components/Figure";
 
 const Home = () => {
   return (
     <main className="home-page">
       <section className="introduction">
-        <div className="introduction__left-container">
-          <Icon className="navbar__logo" name="logo" size="300px" />
-        </div>
+        <Figure name="logo" size="300px" />
         <Article
           title="Développeur web front-end"
           text="Passionné par le développement web depuis quelques années, j'utilise

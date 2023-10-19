@@ -1,5 +1,5 @@
 import Article from "../../components/Article";
-import Icon from "../../components/Icon";
+import Figure from "../../components/Figure";
 
 import cv from "../../assets/cv.pdf";
 
@@ -29,9 +29,7 @@ const About = () => {
             }
           ]}
         />
-        <div className="about__logo-container">
-          <Icon name="logo" size="50%" />
-        </div>
+        <Figure name="logo" size="50%" />
       </section>
     </main>
   );

@@ -17,9 +17,9 @@ const Error = () => {
         <Navbar />
         <main className="error">
           <div className="error__code-container">
-            <h2 className="error__code">
+            <span className="error__code">
               {error.status ? error.status : "???"}
-            </h2>
+            </span>
           </div>
           <Article
             title={`Oups ! ${errorMessage}`}

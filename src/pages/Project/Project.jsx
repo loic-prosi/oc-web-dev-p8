@@ -1,6 +1,7 @@
 import { useLoaderData } from "react-router-dom";
 
 import Article from "../../components/Article";
+import Figure from "../../components/Figure";
 
 const Project = () => {
   const { work } = useLoaderData();
@@ -14,9 +15,7 @@ const Project = () => {
           tags={work.skillsNames}
           text={work.description}
         />
-        <div className="project__image-container">
-          <img className="project__image" src={work.image} alt={work.name} />
-        </div>
+        <Figure src={work.image} alt={work.name} />
       </section>
     </main>
   );
