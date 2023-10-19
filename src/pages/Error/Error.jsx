@@ -15,20 +15,26 @@ const Error = () => {
     <div className="layout">
       <div className="layout__container">
         <Navbar />
-        <main className="error">
-          <div className="error__code-container">
-            <span className="error__code">
-              {error.status ? error.status : "???"}
-            </span>
-          </div>
-          <Article
-            title={`Oups ! ${errorMessage}`}
-            text="Vous pouvez retourner sur la page d'accueil en cliquant sur le
+        <main className="page page--error">
+          <section className="section section--error">
+            <div className="error__code-container">
+              <span className="error__code">
+                {error.status ? error.status : "???"}
+              </span>
+            </div>
+            <Article
+              title={`Oups ! ${errorMessage}`}
+              text="Vous pouvez retourner sur la page d'accueil en cliquant sur le
               lien ci-dessous."
-            links={[
-              { size: "large", name: "Retour sur la page d'accueil", url: "/" }
-            ]}
-          />
+              links={[
+                {
+                  size: "large",
+                  name: "Retour sur la page d'accueil",
+                  url: "/"
+                }
+              ]}
+            />
+          </section>
         </main>
       </div>
       <Footer />

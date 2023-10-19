@@ -7,8 +7,8 @@ const Project = () => {
   const { work } = useLoaderData();
 
   return (
-    <main className="project-page">
-      <section className="project">
+    <main className="page">
+      <section className="section">
         <Article
           info={work.year}
           title={work.name}

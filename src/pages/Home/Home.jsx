@@ -3,8 +3,8 @@ import Figure from "../../components/Figure";
 
 const Home = () => {
   return (
-    <main className="home-page">
-      <section className="introduction">
+    <main className="page page--home">
+      <section className="section section--home">
         <Figure name="logo" size="300px" />
         <Article
           title="Développeur web front-end"

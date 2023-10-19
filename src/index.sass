@@ -13,11 +13,22 @@ body
   font-family: 'Work Sans', sans-serif
   color: $secondary-color
 
+.page
+  padding: 175px 50px 0 50px
+  @media (max-width: 992px)
+    padding: 150px 30px 0 30px
+  @media (max-width: 576px)
+    padding: 120px 0 0 0
+
+.section
+  display: flex
+  gap: 50px
+  @media (max-width: 992px)
+    flex-direction: column
+
 @import "./pages/Layout/Layout.sass"
 @import "./pages/Home/Home.sass"
 @import "./pages/Projects/Projects.sass"
-@import "./pages/Project/Project.sass"
-@import "./pages/About/About.sass"
 @import "./pages/Error/Error.sass"
 
 @import "./components/Navbar/Navbar.sass"

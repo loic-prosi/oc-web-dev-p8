@@ -5,8 +5,8 @@ import cv from "../../assets/cv.pdf";
 
 const About = () => {
   return (
-    <main className="about-page">
-      <section className="about">
+    <main className="page">
+      <section className="section">
         <Article
           title="Loïc Prosi"
           text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum

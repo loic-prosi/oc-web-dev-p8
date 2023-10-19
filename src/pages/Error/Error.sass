@@ -1,14 +1,28 @@
-.error
-  display: flex
-  gap: 50px
+.page--error
   padding: 350px 50px 0 50px
   @media (max-width: 992px)
-    flex-direction: column
-    gap: 30px
     padding: 150px 30px 0 30px
   @media (max-width: 576px)
-    gap: 20px
     padding: 100px 0 0 0
+  .error__code-container
+    display: flex
+    justify-content: center
+    width: 50%
+    @media (max-width: 992px)
+      justify-content: flex-start
+      width: 100%
+    @media (max-width: 576px)
+      box-sizing: border-box
+      padding: 0 15px
+  .error__code
+    margin: 0
+    font-size: 250px
+    font-weight: bold
+    @media (max-width: 992px)
+      font-size: 200px
+      width: 100%
+    @media (max-width: 576px)
+      font-size: 120px
   .article
     &__title
       font-size: 60px
@@ -20,51 +34,12 @@
       width: 75%
       @media (max-width: 576px)
         width: 100%
-  &__code-container
-    display: flex
-    justify-content: center
-    width: 50%
-    @media (max-width: 992px)
-      justify-content: flex-start
-      width: 100%
-  &__code
-    margin: 0
-    font-size: 250px
-    font-weight: bold
-    @media (max-width: 992px)
-      font-size: 200px
-      width: 100%
-    @media (max-width: 576px)
-      font-size: 120px
-  &__message-container
-    width: 50%
-    @media (max-width: 992px)
-      width: 100%
-  &__message
-    margin: 0 0 30px 0
-    font-size: 60px
-    font-weight: normal
-    color: $secondary-color
-    @media (max-width: 992px)
-      font-size: 50px
-    @media (max-width: 576px)
-      font-size: 40px
-  &__infos
-    width: 75%
-    margin-bottom: 30px
-    font-size: 20px
-    line-height: 30px
-    color: $secondary-color-darken-25
-    @media (max-width: 576px)
-      width: 100%
-      margin-bottom: 20px
-      font-size: 18px
-  &__home-link
-    text-decoration: none
-    font-size: 25px
-    transition: color 350ms cubic-bezier(.165,.84,.44,1)
-    color: $secondary-color
-    @media (max-width: 576px)
-      font-size: 20px
-    &:hover
-      color: $selected-color
+
+.section--error
+  display: flex
+  gap: 50px
+  @media (max-width: 992px)
+    flex-direction: column
+    gap: 30px
+  @media (max-width: 576px)
+    gap: 20px

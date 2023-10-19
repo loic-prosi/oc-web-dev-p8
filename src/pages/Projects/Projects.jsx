@@ -6,7 +6,7 @@ import Card from "../../components/Card";
 const Projects = () => {
   const { works } = useLoaderData();
   return (
-    <main className="projects">
+    <main className="page">
       <Article
         title="Mes projets"
         text="Vous trouverez ci-dessous la liste de mes projets front-end et
