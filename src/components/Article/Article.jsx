@@ -1,12 +1,9 @@
 import Link from "../Link";
+import Tag from "../Tag";
 
 const Article = ({ info, title, text, tags, links }) => {
   const renderTags = () => {
-    return tags.map((tag, index) => (
-      <span key={`${index}-${tag}`} className="article__tag">
-        {tag}
-      </span>
-    ));
+    return tags.map((tag, index) => <Tag key={`${index}-${tag}`} text={tag} />);
   };
 
   const renderLinks = () => {
