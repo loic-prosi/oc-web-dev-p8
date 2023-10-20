@@ -1,6 +1,4 @@
-import { Link } from "react-router-dom";
-
-import Icon from "../Icon";
+import Link from "../Link";
 
 const Article = ({ info, title, text, tags, links }) => {
   const renderTags = () => {
@@ -12,35 +10,7 @@ const Article = ({ info, title, text, tags, links }) => {
   };
 
   const renderLinks = () => {
-    return links.map((link, index) => {
-      const { size, name, url, icon, iconSize, download } = link;
-
-      const isLargeLink = size && size === "large";
-      const linkClassName = `article__link ${
-        isLargeLink ? "article__link--large" : ""
-      }`;
-
-      if (download) {
-        return (
-          <a
-            key={`${index}-${name}`}
-            className={linkClassName}
-            href={url}
-            download
-          >
-            {icon && <Icon name={icon} size={iconSize} />}
-            {name}
-          </a>
-        );
-      }
-
-      return (
-        <Link key={`${index}-${name}`} className={linkClassName} to={url}>
-          {icon && <Icon name={icon} size={iconSize} />}
-          {name}
-        </Link>
-      );
-    });
+    return links.map((link, index) => <Link key={`${index}`} link={link} />);
   };
 
   return (
