@@ -14,6 +14,18 @@ const Project = () => {
           title={work.name}
           tags={work.skillsNames}
           text={work.description}
+          links={[
+            {
+              name: "Site web",
+              url: work.url,
+              icon: "fa website"
+            },
+            {
+              name: "Code source",
+              url: work.github,
+              icon: "fa github"
+            }
+          ]}
         />
         <SideContent image={work.image} alt={work.name} />
       </section>
