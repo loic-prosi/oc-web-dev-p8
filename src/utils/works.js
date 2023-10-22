@@ -1,8 +1,8 @@
-import imgP2 from "../assets/images/oc-web-dev-p2.jpg";
+import imgP2 from "../assets/images/oc-web-dev-p2.png";
 import imgP3 from "../assets/images/oc-web-dev-p3.png";
 import imgP4 from "../assets/images/oc-web-dev-p4.png";
-import imgP5 from "../assets/images/oc-web-dev-p5.jpg";
-import imgP6 from "../assets/images/oc-web-dev-p6.jpg";
+import imgP5 from "../assets/images/oc-web-dev-p5.png";
+import imgP6 from "../assets/images/oc-web-dev-p6.png";
 import imgP7 from "../assets/images/oc-web-dev-p7.png";
 
 const images = {
