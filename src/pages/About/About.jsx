@@ -8,12 +8,12 @@ const About = () => {
     <main className="page">
       <section className="section">
         <Article
-          title="Loïc Prosi"
-          text={`Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum veniam enim iusto quia eveniet vel culpa vitae tempore praesentium magni, veritatis ratione aut iure autem libero neque quis rerum officia. 
-          
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum veniam enim iusto quia eveniet vel culpa vitae tempore praesentium magni, veritatis ratione aut iure autem libero neque quis rerum officia.
+          title="À propos"
+          text={`Développeur web depuis 3 ans maintenant, je suis à la recherche de projets front-end me permettant d'élargir mes compétences et renforcer mon expertise.
 
-          Cliquez sur le lien ci-dessous pour télécharger mon CV.`}
+          La conception d’interfaces est mon activité favorite mais j’éprouve également un intérêt pour la partie back-end du métier au travers de la création d’API.
+          
+          Si mon profil a suscité votre curiosité, je vous invite à cliquer sur le lien ci-dessous.`}
           links={[
             {
               size: "large",

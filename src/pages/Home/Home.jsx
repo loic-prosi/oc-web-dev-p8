@@ -9,8 +9,7 @@ const Home = () => {
         <SideContent icon="logo" size="300px" />
         <Article
           title="Développeur web front-end"
-          text="Passionné par le développement web depuis quelques années, j'utilise
-          mon expertise dans la conception d'interfaces."
+          text="Passionné par le développement web, j'utilise mes compétences pour concevoir des expériences utilisateur de qualité."
           links={[
             {
               name: "Github",
