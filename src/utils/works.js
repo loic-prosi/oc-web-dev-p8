@@ -25,6 +25,16 @@ export const findWork = (params, works, skills) => {
   }
 };
 
+export const findApiDoc = (params, works) => {
+  const { id } = params;
+  const work = works.find((work) => work.id === id);
+  if (work && work.apiDoc) {
+    return { work };
+  } else {
+    throw new Response("Api documentation not found", { status: 404 });
+  }
+};
+
 const consolidateWork = (work, skills) => {
   let consolidatedWork = { ...work };
 

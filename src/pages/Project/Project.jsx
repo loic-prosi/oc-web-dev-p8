@@ -24,6 +24,11 @@ const Project = () => {
               name: "Code source",
               url: work.github,
               icon: "fa github"
+            },
+            {
+              name: "Documentation",
+              url: work.apiDoc && `/projects/${work.id}/api`,
+              icon: "fa doc"
             }
           ]}
         />
