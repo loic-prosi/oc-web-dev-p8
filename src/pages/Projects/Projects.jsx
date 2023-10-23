@@ -41,7 +41,7 @@ const Projects = () => {
     <main className="page page--projects">
       <Article
         title="Mes projets"
-        text="Découvrez la liste des projets ayant contribué à l'évolution de mes compétences."
+        text="Découvrez mon travail à travers une sélection de projets variés. Parcourez-les pour en apprendre davantage sur mon expérience et mes compétences."
       />
       <Separator
         className="projects__separator"
