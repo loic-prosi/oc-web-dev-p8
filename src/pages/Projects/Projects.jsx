@@ -9,9 +9,7 @@ const Projects = () => {
     <main className="page">
       <Article
         title="Mes projets"
-        text="Vous trouverez ci-dessous la liste de mes projets front-end et
-          back-end. Ces différents travaux m'ont permis d'améliorer mes
-          compétences."
+        text="Découvrez la liste des projets ayant contribué à l'évolution de mes compétences."
       />
       <div className="projects__list">
         {works &&
