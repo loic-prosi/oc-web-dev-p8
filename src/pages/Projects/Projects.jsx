@@ -43,7 +43,12 @@ const Projects = () => {
         title="Mes projets"
         text="Découvrez la liste des projets ayant contribué à l'évolution de mes compétences."
       />
-      <Separator className="projects__separator" text="Filtres" />
+      <Separator
+        className="projects__separator"
+        text={`${filteredWorks.length} projet${
+          filteredWorks.length > 1 ? "s" : ""
+        }`}
+      />
       <div className="projects__filters">{renderFilters()}</div>
       <div className="projects__list">
         {filteredWorks &&
