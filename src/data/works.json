@@ -64,5 +64,19 @@
     ],
     "year": 2023,
     "github": "https://github.com/loic-prosi/oc-web-dev-p7"
+  },
+  {
+    "id": "just-mining",
+    "name": "Application de comptabilité",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque omnis voluptatum velit. Delectus sapiente laboriosam rem laborum repellat tenetur quo, incidunt cum. Fugiat veniam atque aperiam ad corporis cumque et.\n\nLorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore molestiae quas ad consectetur iusto adipisci saepe sapiente sequi, tempora quasi ullam corporis quidem minima at architecto. Facilis, eaque. Maiores, saepe.",
+    "skills": ["react", "antd", "nodejs", "koa", "mongoose", "mongodb"],
+    "year": 2022
+  },
+  {
+    "id": "avec",
+    "name": "Console d'administration",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque omnis voluptatum velit. Delectus sapiente laboriosam rem laborum repellat tenetur quo, incidunt cum. Fugiat veniam atque aperiam ad corporis cumque et.\n\nLorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore molestiae quas ad consectetur iusto adipisci saepe sapiente sequi, tempora quasi ullam corporis quidem minima at architecto. Facilis, eaque. Maiores, saepe.",
+    "skills": ["react", "antd", "nodejs", "express", "mongoose", "mongodb"],
+    "year": "2019 - 2022"
   }
 ]

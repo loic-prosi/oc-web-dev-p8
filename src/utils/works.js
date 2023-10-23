@@ -1,3 +1,5 @@
+import imgAvec from "../assets/images/avec.webp";
+import imgJustMining from "../assets/images/just-mining.webp";
 import imgP2 from "../assets/images/oc-web-dev-p2.webp";
 import imgP3 from "../assets/images/oc-web-dev-p3.webp";
 import imgP4 from "../assets/images/oc-web-dev-p4.webp";
@@ -6,6 +8,8 @@ import imgP6 from "../assets/images/oc-web-dev-p6.webp";
 import imgP7 from "../assets/images/oc-web-dev-p7.webp";
 
 const images = {
+  avec: imgAvec,
+  "just-mining": imgJustMining,
   "oc-web-dev-p2": imgP2,
   "oc-web-dev-p3": imgP3,
   "oc-web-dev-p4": imgP4,
